@@ -1,0 +1,21 @@
+{
+    "name": "strtob/yii2-cropupload",
+    "description": "Yii2 Crop and Upload Extension with Bootstrap 4",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "strtob",
+            "email": "dev@re-soft.de"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "strtob\\cropupload\\": ""
+        }
+    }
+}
