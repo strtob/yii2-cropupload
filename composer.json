@@ -11,11 +11,18 @@
         }
     ],
     "require": {
-        "yiisoft/yii2": "~2.0.0"
+        "yiisoft/yii2": "~2.0.0",
+        "bower-asset/cropperjs": "1.5.11"
     },
     "autoload": {
         "psr-4": {
             "strtob\\cropupload\\": ""
         }
-    }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }      
+    ]
 }
